@@ -1,10 +1,10 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.2 2001/02/04 17:56:17 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.5 2001/07/20 09:36:43 lachoy Exp $
 
 use strict;
 
-$Bundle::OpenInteract::VERSION = '1.04';
+$Bundle::OpenInteract::VERSION = '1.05';
 
 1;
 
@@ -20,7 +20,9 @@ C<perl -MCPAN -e 'install Bundle::OpenInteract'>
 
 =head1 CONTENTS
 
-SPOPS::Configure
+SPOPS (0.41)
+
+Digest::MD5
 
 Mail::Sendmail (0.77)
 
@@ -50,7 +52,7 @@ Apache::Session (1.50)
 
 Apache::Request (0.31)
 
-OpenInteract::Package
+OpenInteract
 
 =head1 DESCRIPTION
 
