@@ -1,10 +1,8 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.9 2001/11/29 05:21:41 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.10 2002/01/18 23:07:34 lachoy Exp $
 
-use strict;
-
-$Bundle::OpenInteract::VERSION = '1.08';
+$Bundle::OpenInteract::VERSION = '1.09';
 
 1;
 
@@ -57,6 +55,12 @@ Class::Date (1.00)
 MIME::Lite (2.00)
 
 File::MMagic
+
+Carp::Assert
+
+Class::Fields
+
+Class::Accessor
 
 OpenInteract
 

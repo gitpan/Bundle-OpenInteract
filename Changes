@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::OpenInteract.
 
+1.09  Fri Jan 18 18:07:00 EST 2002
+
+   Added 'Class::Accessor', 'Class::Fields' and 'Carp::Assert'
+
 1.08  Mon Nov 26 02:01:07 EST 2001
 
    Added 'File::MMagic'
