@@ -1,10 +1,10 @@
 package Bundle::OpenInteract;
 
-# $Id$
+# $Id: OpenInteract.pm,v 1.2 2001/02/04 17:56:17 lachoy Exp $
 
 use strict;
 
-$Bundle::OpenInteract::VERSION = '1.03';
+$Bundle::OpenInteract::VERSION = '1.04';
 
 1;
 
@@ -44,9 +44,11 @@ Date::Calc (4.3)
 
 Email::Valid (0.12)
 
+Apache::DBI (0.87)
+
 Apache::Session (1.50)
 
-Apache::Request (0.30)
+Apache::Request (0.31)
 
 OpenInteract::Package
 
