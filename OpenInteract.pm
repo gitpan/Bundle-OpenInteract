@@ -1,8 +1,8 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.10 2002/01/18 23:07:34 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.11 2002/08/12 12:16:40 lachoy Exp $
 
-$Bundle::OpenInteract::VERSION = '1.09';
+$Bundle::OpenInteract::VERSION = '1.10';
 
 1;
 
@@ -28,6 +28,12 @@ Template (2.00)
 
 Pod::Usage (1.12)
 
+Pod::POM (0.15)
+
+LWP::UserAgent
+
+HTTP::Request
+
 Archive::Tar
 
 Compress::Zlib (1.08)
@@ -42,7 +48,7 @@ Date::Format (2.09)
 
 Date::Calc (4.3)
 
-Email::Valid (0.12)
+Mail::RFC822::Address (0.3)
 
 Apache::DBI (0.87)
 
@@ -55,6 +61,8 @@ Class::Date (1.00)
 MIME::Lite (2.00)
 
 File::MMagic
+
+Lingua::Stem
 
 Carp::Assert
 

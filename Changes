@@ -1,5 +1,10 @@
 Revision history for Perl extension Bundle::OpenInteract.
 
+1.10  Mon Aug 12 08:21:02 EDT 2002
+
+   Added 'Pod::POM', 'Lingua::Stem', 'LWP::UserAgent', 'HTTP::Request'
+   and replaced 'Email::Valid' with 'Mail::RFC822::Address'
+
 1.09  Fri Jan 18 18:07:00 EST 2002
 
    Added 'Class::Accessor', 'Class::Fields' and 'Carp::Assert'
