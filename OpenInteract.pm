@@ -1,8 +1,10 @@
 package Bundle::OpenInteract;
 
+# $Id$
+
 use strict;
 
-$Bundle::OpenInteract::VERSION = '1.02';
+$Bundle::OpenInteract::VERSION = '1.03';
 
 1;
 
@@ -18,7 +20,7 @@ C<perl -MCPAN -e 'install Bundle::OpenInteract'>
 
 =head1 CONTENTS
 
-SPOPS (0.38)
+SPOPS::Configure
 
 Mail::Sendmail (0.77)
 
@@ -46,12 +48,22 @@ Apache::Session (1.50)
 
 Apache::Request (0.30)
 
-OpenInteract
+OpenInteract::Package
 
 =head1 DESCRIPTION
 
 Install all the modules needed for OpenInteract. A few of them have to
 do with the package installer, but most are just for normal operation.
+
+=head1 MORE INFORMATION
+
+Sourceforge Project Home:
+
+ http://sourceforge.net/projects/openinteract/
+
+News, package repository and more information:
+
+ http://www.openinteract.org/
 
 =head1 AUTHOR
 
