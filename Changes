@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::OpenInteract.
 
+1.06  Mon Aug 20 11:14:18 EDT 2001
+
+   Added 'Class::Date'
+
 1.05  Thu Jul 12 09:03:48 EDT 2001
 
    Added 'Digest::MD5' and changed 'SPOPS::Configure' to 'SPOPS'
