@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::OpenInteract.
 
+1.08  Mon Nov 26 02:01:07 EST 2001
+
+   Added 'File::MMagic'
+
 1.07  Mon Oct  8 12:54:23 EDT 2001
 
    Added 'MIME::Lite' and note about PPMs on SF site.

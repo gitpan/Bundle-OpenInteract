@@ -1,10 +1,10 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.7 2001/10/08 16:40:46 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.9 2001/11/29 05:21:41 lachoy Exp $
 
 use strict;
 
-$Bundle::OpenInteract::VERSION = '1.07';
+$Bundle::OpenInteract::VERSION = '1.08';
 
 1;
 
@@ -55,6 +55,8 @@ Apache::Request (0.31)
 Class::Date (1.00)
 
 MIME::Lite (2.00)
+
+File::MMagic
 
 OpenInteract
 
