@@ -1,10 +1,10 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.6 2001/08/20 15:06:08 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.7 2001/10/08 16:40:46 lachoy Exp $
 
 use strict;
 
-$Bundle::OpenInteract::VERSION = '1.06';
+$Bundle::OpenInteract::VERSION = '1.07';
 
 1;
 
@@ -54,6 +54,8 @@ Apache::Request (0.31)
 
 Class::Date (1.00)
 
+MIME::Lite (2.00)
+
 OpenInteract
 
 =head1 DESCRIPTION
@@ -70,6 +72,10 @@ Sourceforge Project Home:
 News, package repository and more information:
 
  http://www.openinteract.org/
+
+PPM Files for Win32 Users
+
+ http://openinteract.sourceforge.net/
 
 =head1 AUTHOR
 

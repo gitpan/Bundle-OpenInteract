@@ -1,5 +1,9 @@
 Revision history for Perl extension Bundle::OpenInteract.
 
+1.07  Mon Oct  8 12:54:23 EDT 2001
+
+   Added 'MIME::Lite' and note about PPMs on SF site.
+
 1.06  Mon Aug 20 11:14:18 EDT 2001
 
    Added 'Class::Date'
