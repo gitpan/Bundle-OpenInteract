@@ -1,8 +1,8 @@
 package Bundle::OpenInteract;
 
-# $Id: OpenInteract.pm,v 1.11 2002/08/12 12:16:40 lachoy Exp $
+# $Id: OpenInteract.pm,v 1.12 2003/04/08 01:21:22 lachoy Exp $
 
-$Bundle::OpenInteract::VERSION = '1.10';
+$Bundle::OpenInteract::VERSION = '1.11';
 
 1;
 
@@ -18,57 +18,56 @@ C<perl -MCPAN -e 'install Bundle::OpenInteract'>
 
 =head1 CONTENTS
 
-SPOPS (0.50)
-
-Digest::MD5
-
-Mail::Sendmail (0.77)
-
-Template (2.00)
-
-Pod::Usage (1.12)
-
-Pod::POM (0.15)
-
-LWP::UserAgent
-
-HTTP::Request
-
-Archive::Tar
-
-Compress::Zlib (1.08)
-
-Class::Singleton (1.03)
-
-HTML::Entities (1.13)
-
-Text::Sentence
-
-Date::Format (2.09)
-
-Date::Calc (4.3)
-
-Mail::RFC822::Address (0.3)
-
-Apache::DBI (0.87)
+Apache::Request (0.31)
 
 Apache::Session (1.50)
 
-Apache::Request (0.31)
-
-Class::Date (1.00)
-
-MIME::Lite (2.00)
-
-File::MMagic
-
-Lingua::Stem
+Archive::Tar
 
 Carp::Assert
 
+Class::Accessor
+
+Class::Date (1.00)
+
 Class::Fields
 
-Class::Accessor
+Class::Singleton (1.03)
+
+Compress::Zlib (1.08)
+
+Digest::MD5
+
+File::Copy
+
+File::Basename
+
+File::MMagic
+
+File::Path
+File::Spec
+
+HTML::Entities (1.13)
+
+HTTP::Request
+
+Lingua::Stem
+
+MIME::Lite (2.00)
+
+Mail::RFC822::Address (0.3)
+
+Mail::Sendmail (0.77)
+
+Pod::POM (0.15)
+
+Pod::Usage (1.12)
+
+SPOPS (0.60)
+
+Template (2.04)
+
+Text::Sentence
 
 OpenInteract
 
@@ -83,16 +82,10 @@ Sourceforge Project Home:
 
  http://sourceforge.net/projects/openinteract/
 
-News, package repository and more information:
-
- http://www.openinteract.org/
-
-PPM Files for Win32 Users
+News, documentation and collaborative environment:
 
  http://openinteract.sourceforge.net/
 
 =head1 AUTHOR
 
-Chris Winters <chris@cwinters.com>
-
-=cut
+Chris Winters E<lt>chris@cwinters.comE<gt>
